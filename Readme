@@ -1,0 +1,19 @@
+Readme
+
+Toxic comments classification - Udacity nanodegree final project
+
+Requirements:
+python 3
+scikit-learn
+keras 
+seaborn (for visualisation)
+
+Used Nvidia GTX 1060 and cuda 9 to build the model
+
+Used https://github.com/ufoym/deepo as the base docker image and modified it to add seaborn
+
+
+Data can be obtained from:
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data - training and test data
+https://github.com/t-davidson/hate-speech-and-offensive-language - twitter data used for validation
+https://s3-us-west-1.amazonaws.com/fasttext-vectors/crawl-300d-2M.vec.zip - fasttext embedding
